@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ganesh from "./Assets/ganesh.png";
+import border from "./Assets/border.png";
+import BorderComp from "./Components/BorderComp";
+import Sections from "./Components/Sections";
+import { personalInfo, familyDetails } from "./data/datafile";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container min-h-screen min-w-full mainbg flex flex-col p-1">
+      {/* Uncomment and adjust if using BorderComp */}
+      <BorderComp>
+        <div className="w-full">
+          <Sections data={personalInfo} />
+          <Sections data={familyDetails} />
+        </div>
+      </BorderComp>
     </div>
   );
 }
