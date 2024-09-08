@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PratikshaMahamuni/static/css/main.d9c6f019.css",
+    "main.js": "/PratikshaMahamuni/static/js/main.d694cd23.js",
+    "static/js/453.ec2bf4fa.chunk.js": "/PratikshaMahamuni/static/js/453.ec2bf4fa.chunk.js",
+    "static/media/ganeshFinal.png": "/PratikshaMahamuni/static/media/ganeshFinal.8aa2d0a9ae92f56e2ef9.png",
+    "static/media/logo.svg": "/PratikshaMahamuni/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PratikshaMahamuni/index.html",
+    "main.d9c6f019.css.map": "/PratikshaMahamuni/static/css/main.d9c6f019.css.map",
+    "main.d694cd23.js.map": "/PratikshaMahamuni/static/js/main.d694cd23.js.map",
+    "453.ec2bf4fa.chunk.js.map": "/PratikshaMahamuni/static/js/453.ec2bf4fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9c6f019.css",
+    "static/js/main.d694cd23.js"
+  ]
+}
